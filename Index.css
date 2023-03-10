@@ -1,0 +1,156 @@
+html, body{
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+}
+.logo img{
+    width: 30%;
+    height: auto;
+}
+.logo{
+    text-align: center;
+}
+ul{
+    list-style: none;
+    text-align: center;
+}
+ul li{
+    display: inline;
+}
+.navigation-menu{
+    border: 2px solid;
+    border-radius: 10em ;
+    background-color: #333333;
+    padding: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+li a{
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgb(195, 221, 245);
+    padding: 0.3em;
+}
+.image-header{
+    position: relative;
+    background-image: url(Spaghetti-Bolognese-with-Basil-in-a-Plate.jpg);
+    background-size: cover;
+    opacity: 4;
+    height: 500px;
+    overflow: hidden;
+    margin-top: 1.9%;
+    border-radius: 2em;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.img{
+    position: absolute;
+    right: 25%;
+    top: 50%;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    filter: opacity(200%);
+    
+}
+.img h1{
+    font-size: 70px;
+    margin: 0;
+}
+.img h1 span{
+   border: 6px solid white; 
+   padding:  6px 14px;
+   display: inline-block;
+}
+.text{
+    margin: 20px;
+    display: block;
+    font-size: 26px;
+}
+.container{
+    display: flex;
+    padding-top: 1.9%;
+    padding-bottom: 1.9%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.container1 img{
+    width: 100%;
+    height: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.container2 img{
+    width: 100%;
+    height: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.container3 img{
+    width: 100%;
+    height: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.container1{
+    width: 75rem;
+    text-align: center;
+    background-color: antiquewhite;
+    padding-right: 10%;
+    padding-left: 5%;
+    border-radius: 1.5rem;
+}
+.container2{
+    width: 100rem;
+    text-align: center;
+    background-color: antiquewhite;
+    padding-right: 5%;
+    padding-left: 5%;
+    border-radius: 1.5rem;
+}
+.container3{
+    width: 100rem;
+    text-align: center;
+    background-color: antiquewhite;
+    padding-right: 5%;
+    padding-left: 5%;
+    border-radius: 1.5rem;
+
+
+}
+.footer-element{
+    display: flex;
+}
+.container .container1{
+    margin-right: 2%;
+}
+.container .container2{
+    margin-right: 2%;
+}
+.container .container3{
+    margin-right: 2%;
+}
+.footer-element img{
+    width: 55px;
+    border: 4px solid gray;
+    border-style: inset outset;
+    padding-right: 0.5%;
+    padding-left: 0.5%;
+    
+}
+.footer-element2{
+    align-items: end;
+}
+hr{
+    margin-left: 40%;
+    border-style: solid;
+}
+.copyright{
+    margin-left: 87%;
+   
+}
+
+
